@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  min-width: 320px;
+}
+
+.container {
+  max-width: 1280px;
+  width: 90%;
+  margin: auto;
+}
+
+button {
+  outline: none;
+  border: none;
+}
+
+h1,
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h1 {
+  margin: 1rem 0;
+}
+
+h2 {
+  margin-top: 0.75rem;
+  color: #333;
+}
+
+.todoForm {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.todoForm__input,
+.todoForm__btn,
+.todo__btn {
+  border-radius: 5px;
+  border: 2px solid #333;
+  font-size: 1rem;
+}
+
+.todoForm__btn,
+.todo__btn {
+  cursor: pointer;
+}
+
+.todoForm__input {
+  padding: 1.15rem 1rem;
+}
+
+.todoForm__btn {
+  padding: 1rem;
+  text-transform: uppercase;
+  background-color: transparent;
+}
+
+.todo__input {
+  width: 100%;
+  font-size: 1.15rem;
+  margin-bottom: 0.45rem;
+  padding: 0.5px 5px;
+}
+
+input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+}
+
+.todo__sec2 {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.45rem;
+}
+
+p {
+  font-size: 1.15rem;
+}
+
+.todo__btn {
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  margin-right: 0.75rem;
+}
+
+.toggle {
+  text-decoration: line-through;
+  opacity: 0.8;
+}
