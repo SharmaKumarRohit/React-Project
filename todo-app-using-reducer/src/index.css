@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@layer base {
+  .main-container {
+    @apply max-w-[1280px] w-[90%] mx-auto my-4;
+  }
+  .btn {
+    @apply px-5 py-2 border-2 rounded mt-2;
+  }
+}
