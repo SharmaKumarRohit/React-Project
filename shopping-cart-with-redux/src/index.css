@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-Inter: "Inter", sans-serif;
+}
+
+@layer base {
+  .btn {
+    @apply border-2 border-zinc-500 px-5 py-2 rounded cursor-pointer hover:bg-zinc-100;
+  }
+  .bg-backdrop {
+    background-color: rgba(50, 50, 50, 0.9);
+  }
+}
