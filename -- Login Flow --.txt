@@ -1,0 +1,12 @@
+-- Login Flow --
+
+1. Jab user login hoga tab, server sha milega access token or refresh token.
+
+2. Login karne ka baad koe request karega, other request + access token.
+
+3. if access token expires, then ham refresh token ki help se again request send karega server par fir hame milega new access token
+   or refresh token.
+
+4. throw keyword apne current call stack se exit karega or jo throw karega ush work ko karega.
+
+5. logout karne par, mera refresh_token black list ho jhaega or fir mai refresh_token ki help se again login nahi kar pauga
